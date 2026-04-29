@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {new Date().getFullYear()} Abrar Larah. Built with <FaHeart className="footer__heart" /> and React.js
+            © {new Date().getFullYear()}  Built with <FaHeart className="footer__heart" /> By Abrar Larah.
           </p>
           <button className="footer__back-to-top" onClick={scrollToTop} aria-label="Back to top">
             <FaArrowUp />

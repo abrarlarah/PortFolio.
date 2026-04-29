@@ -86,8 +86,8 @@ const Navbar = () => {
           </div>
 
           <div className="navbar__actions">
-            <button 
-              className="navbar__theme-toggle" 
+            <button
+              className="navbar__theme-toggle"
               onClick={toggleTheme}
               aria-label="Toggle theme"
             >
@@ -96,15 +96,14 @@ const Navbar = () => {
             <a href="#contact" className="navbar__cta">
               Let&apos;s Talk
             </a>
+            <button
+              className="navbar__mobile-toggle"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileOpen ? <HiX /> : <HiMenuAlt3 />}
+            </button>
           </div>
-
-          <button
-            className="navbar__mobile-toggle"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
-          >
-            {mobileOpen ? <HiX /> : <HiMenuAlt3 />}
-          </button>
         </div>
       </motion.nav>
 
