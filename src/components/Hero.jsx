@@ -120,7 +120,7 @@ const Hero = () => {
             style={{ transformStyle: 'preserve-3d' }}
           >
             <div className="hero__image-glow" style={{ transform: 'translateZ(-60px)' }} />
-            <img src="/images/profile.png" alt="Abrar Larah" className="hero__image" style={{ transform: 'translateZ(60px)' }} />
+            <img src="./images/profile.png" alt="Abrar Larah" className="hero__image" style={{ transform: 'translateZ(60px)' }} />
             <div className="hero__image-ring" style={{ transform: 'translateZ(30px)' }} />
             <div className="hero__image-ring hero__image-ring--2" style={{ transform: 'translateZ(90px)' }} />
           </Tilt>
